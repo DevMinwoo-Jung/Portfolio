@@ -180,13 +180,3 @@ ul {
   margin: 0 16px;
   text-align: left;
 }
-
-.job__name,
-.job__period {
-  color: var(--color-light-grey);
-  font-size: var(--font-small);
-}
-
-.job__period {
-  font-size: var(--font-micro);
-}

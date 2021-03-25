@@ -29,9 +29,6 @@
 
   /* Szie */
   --size-border-radus: 4px;
-
-  /* Animation  */
-  --animation-duration: 300ms ease;
 }
 
 /* Typography */
@@ -159,7 +156,7 @@ ul {
 }
 
 .major__icon i {
-  transition: var(--animation-duration);
+  transition: 300ms ease;
 }
 
 .major__title,
@@ -169,24 +166,4 @@ ul {
 
 .major__description {
   font-size: var(--font-small);
-}
-
-.job {
-  display: flex;
-  align-items: center;
-}
-
-.job__description {
-  margin: 0 16px;
-  text-align: left;
-}
-
-.job__name,
-.job__period {
-  color: var(--color-light-grey);
-  font-size: var(--font-small);
-}
-
-.job__period {
-  font-size: var(--font-micro);
 }
