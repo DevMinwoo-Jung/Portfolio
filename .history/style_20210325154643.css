@@ -216,7 +216,7 @@ ul {
 }
 
 .skill {
-  margin-top: 32px;
+  margin-bottom: 8px;
 }
 
 .skill__bar {
@@ -227,7 +227,7 @@ ul {
 /* width, heigh를 지정한 이유는 div는 content가 없어서 width height가 없다 */
 
 .skill__value {
-  /* width: 100%; */
+  width: 100%;
   height: 3px;
   background-color: var(--color-orange);
 }
@@ -248,8 +248,6 @@ ul {
   flex-basis: 40%;
 }
 
-.tools,
-.etc {
+.tools {
   background-color: var(--color-grey);
-  padding: 20px;
 }

@@ -215,25 +215,6 @@ ul {
   justify-content: space-between;
 }
 
-.skill {
-  margin-top: 32px;
-}
-
-.skill__bar {
-  width: 100%;
-  height: 3px;
-  background-color: var(--color-dark-grey);
-}
-/* width, heigh를 지정한 이유는 div는 content가 없어서 width height가 없다 */
-
-.skill__value {
-  /* width: 100%; */
-  height: 3px;
-  background-color: var(--color-orange);
-}
-
-/* css에서 적용해서 모든 요소에 같은 값이 적용됐다. 이건 html태그에서 정의되어야 하는데 이런 데이터는 따로 추출해서 JSON에서 동적으로 적용해야한다 */
-
 .skillset__title {
   color: var(--color-white);
 }
@@ -248,8 +229,6 @@ ul {
   flex-basis: 40%;
 }
 
-.tools,
-.etc {
+.tools {
   background-color: var(--color-grey);
-  padding: 20px;
 }

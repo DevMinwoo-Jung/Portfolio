@@ -215,8 +215,8 @@ ul {
   justify-content: space-between;
 }
 
-.skill {
-  margin-top: 32px;
+.skills {
+  margin-bottom: 16px;
 }
 
 .skill__bar {

@@ -216,7 +216,7 @@ ul {
 }
 
 .skill {
-  margin-top: 32px;
+  margin-bottom: 8px;
 }
 
 .skill__bar {
@@ -248,8 +248,6 @@ ul {
   flex-basis: 40%;
 }
 
-.tools,
-.etc {
+.tools {
   background-color: var(--color-grey);
-  padding: 20px;
 }
